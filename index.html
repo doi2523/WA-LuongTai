@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>THPT Lương Tài - Bắc Ninh</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .hide-scrollbar {
+        scrollbar-width: none; /* Firefox */
+        -ms-overflow-style: none; /* IE and Edge */
+      }
+      .hide-scrollbar::-webkit-scrollbar {
+        display: none; /* Chrome, Safari and Opera */
+      }
+    </style>
+  </head>
+  <body class="bg-blue-50 text-gray-800 font-sans">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 py-1"
+      >
+        <h1 class="text-sm">Đăng nhập</h1>
+        <div class="flex items-center gap-4">
+          <span>RSS</span>
+          <button class="px-3 py-1 rounded hover:bg-blue-100 transition">
+            Tìm kiếm
+          </button>
+        </div>
+      </div>
+    </header>
+    <!-- Banner -->
+    <div class="w-full">
+      <img
+        src="/images/bgbanner_moi1.png"
+        alt="Ảnh trường"
+        class="w-full object-cover"
+      />
+    </div>
+    <!-- Navbar -->
+    <nav class="bg-blue-800 text-white">
+      <div
+        class="container mx-auto flex justify-between items-center px-4 py-2"
+      >
+        <!-- Menu cuộn ngang, ẩn thanh cuộn -->
+        <ul
+          class="flex w-full gap-6 font-medium overflow-x-auto whitespace-nowrap hide-scrollbar"
+        >
+          <li><a href="/index.html" class="hover:underline">TRANG CHỦ</a></li>
+          <li><a href="#" class="hover:underline">TRA CỨU</a></li>
+          <li><a href="#" class="hover:underline">TUYỂN SINH</a></li>
+          <li><a href="#" class="hover:underline">LIÊN HỆ</a></li>
+          <li><a href="#" class="hover:underline">GIỚI THIỆU</a></li>
+          <li><a href="#" class="hover:underline">TIN TỨC</a></li>
+          <li><a href="#" class="hover:underline">HOẠT ĐỘNG</a></li>
+          <li><a href="#" class="hover:underline">LIÊN KẾT</a></li>
+        </ul>
+
+        <!-- Nút bên phải -->
+        <button
+          class="ml-4 bg-white text-blue-800 px-3 py-1 rounded hover:bg-blue-100 transition"
+        >
+          Nuts
+        </button>
+      </div>
+    </nav>
+
+    <!-- Nội dung chính -->
+    <main class="flex flex-col px-4 justify-center items-center py-6 space-y-6">
+      <!-- Giới thiệu -->
+      <section class="rounded-lg w-full border shadow-md overflow-hidden">
+        <div class="bg-gray-100 px-4 py-3 border-b">
+          <h2 class="text-md">
+            Chào mừng bạn đến với website Trường THPT Lương Tài
+          </h2>
+        </div>
+        <div class="bg-white px-4 py-4">
+          <p class="text-sm font-semibold text-black">
+            Thứ Tư, 9/4/2025 - 16:47:15
+          </p>
+        </div>
+      </section>
+
+      <!-- Tin mới nhất -->
+      <section class="rounded shadow overflow-hidden border">
+        <!-- Phần tiêu đề với nền xanh -->
+        <div class="bg-blue-800 text-white px-6 py-2 border-b">
+          <h2 class="text-xl font-semibold">Tin mới nhất</h2>
+        </div>
+
+        <!-- Phần nội dung với nền trắng -->
+        <div class="bg-white px-6 py-6">
+          <img
+            src="/images/f266d073afd836f5696b618cc2c98743.JPEG"
+            alt="Tin mới"
+            class="w-full max-w-3xl mx-auto rounded mb-4"
+          />
+          <p class="text-lg text-gray-800">
+            Sở Giáo dục và Đào tạo về thăm và kiểm tra trường.
+          </p>
+        </div>
+      </section>
+
+      <!-- Hoạt động của trường -->
+      <section class="rounded shadow overflow-hidden border">
+            <!-- Phần tiêu đề với nền xanh -->
+            <div class="bg-blue-800 text-white px-6 py-2 border-b">
+              <h2 class="text-xl font-semibold">Hoạt động của trường</h2>
+            </div>
+    
+            <!-- Phần nội dung với nền trắng -->
+            <div class="bg-white px-6 py-6">
+              <img
+                src="/images//4562de48d9417303d4267ebc9cea176f.JPEG"
+                alt="Tin mới"
+                class="w-full max-w-3xl mx-auto rounded mb-4"
+              />
+              <p class="text-lg text-gray-800">
+            Văn nghệ lễ kỷ niệm ngày thành lập đoàn TNCS Hồ Chí Minh.
+              </p>
+            </div>
+          </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-blue-500 text-white text-center py-4 mt-8">
+      &copy; 2025 THPT Lương Tài - Bắc Ninh. All rights reserved.
+    </footer>
+  </body>
+</html>
